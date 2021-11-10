@@ -1,6 +1,6 @@
 from instapy import InstaPy
 
-session = InstaPy(username="___gaming.hub", password="adarshm9527" ,headless_browser=True)
+session = InstaPy(username="___gaming.hub", password="adarshm9527" , headless_browser=True)
 session.login()
 session.like_by_tags(["bmw", "mercedes"], amount=5)
 session.set_dont_like(["naked", "nsfw"])
